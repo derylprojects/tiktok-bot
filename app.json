@@ -1,0 +1,17 @@
+{
+  "name": "TikTok-Bot",
+  "description": "Bot telegram untuk mendownload video Tiktok ",
+  "repository": "https://github.com/derylprojects/tiktok-bot",
+  "keywords": ["telegram", "bot", "tiktok"],
+  "env": {
+    "ENVIRONMENT": "Heroku",
+    "API_TOKEN": {
+            "description": "Token api key dari Bot Father",
+            "required": true
+    },
+    "SENTRY_DSN": {
+            "description": "Jangan Diisi",
+            "required": false
+    }
+  }
+}
